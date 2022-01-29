@@ -1,0 +1,49 @@
+#content {
+   max-width: 1600px; 
+   margin: 0 auto;
+}
+
+nav a, #hero-msg h1, #hero-msg h4, .button-box, main section  {
+    text-align: center;
+    
+}
+
+#background {
+    height: 725px;
+
+}
+
+header, nav a:hover, .book, .join, .book:hover, .join:hover, .msg, footer {
+    color: black;
+    background-color: rgb(153, 122, 112);
+}
+
+nav a:hover, .book:hover, .join:hover, footer a:hover{
+    color:blue;
+    
+}
+
+.logo, .icon {
+    width: 80px;
+}
+
+#hero-img{
+    width: 100%
+
+}
+
+nav a, .book, .join, footer a {
+    text-decoration: none;
+}
+
+footer h3, a:hover {
+    text-decoration: underline;
+}
+
+body{
+    background-color: lightgray;
+}
+
+#background{
+    background-color: rgb(26, 14, 14);
+}
