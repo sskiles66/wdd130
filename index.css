@@ -1,0 +1,22 @@
+#content {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: black;
+    font-size: 1.5em;
+    padding: 15px;
+    margin: 20px;
+    background-color: gray;
+}
+
+a:hover {
+    color: blue;
+}
+
