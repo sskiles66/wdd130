@@ -1,0 +1,10 @@
+.grid {
+    display: grid;
+    grid-template-columns: 50px auto;
+    grid-template-rows: 50px auto;
+}
+
+.one {
+    grid-column: 3/5;
+    
+}
