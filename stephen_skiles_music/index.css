@@ -488,7 +488,7 @@ a {
     grid-row: 1/2;
     margin-right: 290px;
     margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 80px;
     
     
     
@@ -525,7 +525,7 @@ a {
     grid-row: 3/4;
     margin-right: 290px;
     margin-left: 20px;
-    margin-top: 175px;
+    margin-top: 250px;
     
 }
 
@@ -563,3 +563,42 @@ a {
 }
 
 
+@media screen and (max-width: 900px) {
+    .home-grid, .music-grid, .about-me-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+
+    }
+    .main-card, .left-card, .right-card {
+        margin-top: 0;
+        width: 80%;
+        margin-left: 5%;
+    }
+
+    .remnant-card, #background, #text1, .pendulem-card, #background2, #text2, .reckoning-card, #background3, #text3, .rises-card, #background4, #text4, .generic-card, #background5, #text5, .jingle-card, #background6, #text6 {
+        margin-top: 10px;
+        width: 80%;
+        margin-left: 5%;
+    }
+
+    audio {
+        margin-left: -3%;
+    }
+    
+
+
+
+
+
+
+    footer {
+        margin-top: 25px;
+    }
+}
