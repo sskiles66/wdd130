@@ -1,0 +1,26 @@
+header {
+    margin-top: 2%;
+   /* display: flex; */
+    background-color: black;
+    padding: 1%;
+}
+
+nav a {
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: white;
+    border-radius: 5%;
+}
+
+header p {
+    color:blue;
+    display: inline-block;
+    margin-left: 30%;
+    
+}
+
+#background {
+    background-color: brown;
+    width: 100%;
+    height: 600px;
+}
